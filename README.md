@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This is a demo portfolio website showcasing my projects and skills. The site is built using React and styled with Tailwind CSS.
+This is a demo portfolio website showcasing my projects and skills. The site is built using React and styled with Tailwind CSS in Persian.
 
 ## Features
 
@@ -24,10 +24,6 @@ To run the project locally, follow these steps:
 1. Clone the repository.
 2. Install dependencies using `npm install`.
 3. Start the development server with `npm start`.
-
-## Contact
-
-Feel free to reach out to me through the contact form on the website or via my GitHub profile.
 
 ## Demo
 
