@@ -1,8 +1,34 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a demo portfolio website showcasing my projects and skills. The site is built using React and styled with Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Display of projects and experiences.
+- Contact form for reaching out.
+- Responsive design for various devices.
+- Integration with external APIs for data fetching.
+
+## Technologies Used
+
+- React
+- Tailwind CSS
+- Axios for API requests
+- React Hook Form for form handling
+- React Hot Toast for notifications
+
+## Getting Started
+
+To run the project locally, follow these steps:
+
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Start the development server with `npm start`.
+
+## Contact
+
+Feel free to reach out to me through the contact form on the website or via my GitHub profile.
+
+## Demo
+
+You can view a live demo of the project [here](https://example.com).
