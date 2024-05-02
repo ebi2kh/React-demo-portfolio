@@ -8,23 +8,23 @@ function Navbar() {
   const navItems = [
     {
       id: 1,
-      text: "Home",
+      text: "خانه",
     },
     {
       id: 2,
-      text: "About",
+      text: "درباره",
     },
     {
       id: 3,
-      text: "Portfolio",
+      text: "پورفولیو",
     },
     {
       id: 4,
-      text: "Experiance",
+      text: "تجربیات",
     },
     {
       id: 5,
-      text: "Contact",
+      text: "تماس",
     },
   ];
   return (
@@ -34,8 +34,8 @@ function Navbar() {
           <div className=" flex space-x-2">
             <img src={pic} className="h-12 w-12 rounded-full" alt="" />
             <h1 className="font-semibold text-xl cursor-pointer">
-              Akhi<span className="text-green-500 text-2xl">l</span>
-              <p className="text-sm">Web Developer</p>
+              علی هستم <span className="text-green-500 text-2xl">من</span>
+              <p className="text-sm">توسعه دهنده وب</p>
             </h1>
           </div>
           {/* desktop navbar */}
