@@ -4,7 +4,7 @@ function About() {
   return (
     <div
       name="About"
-      className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20"
+      className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20 bg-purple-50"
     >
       <div>
         <h1 className="text-3xl font-bold mb-5">درباره</h1>
@@ -46,7 +46,7 @@ function About() {
         </span> */}
         <br />
         <br />
-        <h1 className="text-green-600 font-semibold text-xl">بیانیه ماموریت</h1>
+        <h1 className="text-green-600 font-semibold text-xl"> ماموریت</h1>
         <p>
           ماموریت من استفاده از مهارت‌ها و خلاقیت برای ارائه راه‌حل‌های نوآورانه
           توسعه وب است که انتظارات مشتری را برآورده کند و به منظر دیجیتال مثبت

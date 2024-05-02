@@ -44,12 +44,12 @@ function PortFolio() {
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10"
     >
       <div>
-        <h1 className="text-3xl font-bold mb-5">PortFolio</h1>
-        <span className=" underline font-semibold">Featured Projects</span>
+        <h1 className="text-3xl font-bold mb-5">نمونه کارها</h1>
+        <span className="underline font-semibold">پروژه‌های مهم</span>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-3 my-5">
           {cardItem.map(({ id, logo, name }) => (
             <div
-              className="md:w-[300px] md:h-[300px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"
+              className="md:w-[300px] mt-5 md:h-[300px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300 bg-stone-200"
               key={id}
             >
               <img
@@ -60,15 +60,17 @@ function PortFolio() {
               <div>
                 <div className="px-2 font-bold text-xl mb-2">{name}</div>
                 <p className="px-2 text-gray-700">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  این یک پروژه بسیار مهم و موثر در حوزه توسعه وب است که با
+                  استفاده از تکنولوژی‌های جدید و استانداردهای طراحی وب ایجاد شده
+                  است.
                 </p>
               </div>
-              <div className=" px-6 py-4 space-x-3 justify-around">
+              <div className="px-6 py-4 space-x-3 justify-around">
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded">
-                  Video
+                  ویدیو
                 </button>
                 <button className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded">
-                  Source code
+                  کد منبع
                 </button>
               </div>
             </div>
