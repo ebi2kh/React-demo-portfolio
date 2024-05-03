@@ -25,6 +25,3 @@ To run the project locally, follow these steps:
 2. Install dependencies using `npm install`.
 3. Start the development server with `npm start`.
 
-## Demo
-
-You can view a live demo of the project [here](https://example.com).
